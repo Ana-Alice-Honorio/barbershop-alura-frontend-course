@@ -1,3 +1,3 @@
 # Barbeshop Alura
 
-![barbeshop-alura](print.png)
+![barbeshop-alura](./images/print.png)
