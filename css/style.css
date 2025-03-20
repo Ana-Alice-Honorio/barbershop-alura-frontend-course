@@ -23,6 +23,29 @@ nav li {
   margin: 0 0 0 15px;
 }
 
+.gallery {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+.image:hover img {
+  transform: scale(1.1);
+}
+
 nav a {
   text-transform: uppercase;
   color: #000000;
@@ -32,8 +55,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #c78c19;
-  text-decoration: underline;
+  color: brown;
+  text-decoration: none;
 }
 
 .produtos {
@@ -311,6 +334,18 @@ th {
 
   .lista-beneficios,
   .imagem-beneficios {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image {
     width: 100%;
   }
 }
