@@ -3,8 +3,7 @@ body {
 }
 
 header {
-  background: #bbbbbb;
-  padding: 20px 0;
+  background: burlywood;
 }
 
 .caixa {
@@ -15,7 +14,7 @@ header {
 
 nav {
   position: absolute;
-  top: 110px;
+  top: 90px;
   right: 0;
 }
 
